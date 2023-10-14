@@ -1,0 +1,30 @@
+{
+  "name": "@webdevaaron/editor",
+  "description": "A lexical editor built with plugins for ready-to-go editing in your website",
+  "packageManager": "yarn@3.6.4",
+  "type": "module",
+  "scripts": {
+    "dev": "node esbuild.dev.js",
+    "build": "node esbuild.build.js",
+    "lint": "eslint --cache --ext \".js,.ts,.tsx\" --report-unused-disable-directives --fix src",
+    "type-check": "tsc --noEmit",
+    "format": "prettier -w \"**/*.{ts,tsx,js,jsx}\" && yarn run type-check && yarn run lint"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Aaron"
+  },
+  "dependencies": {
+    "lexical": "^0.12.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.3.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "esbuild": "^0.19.4",
+    "eslint": "^8.47.0",
+    "eslint-config-next": "^13.5.4",
+    "eslint-plugin-prettier": "^5.0.1",
+    "prettier": "^3.0.0",
+    "typescript": "^5.2.2"
+  }
+}
