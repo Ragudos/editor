@@ -452,7 +452,6 @@ __metadata:
     eslint: ^8.47.0
     eslint-config-next: ^13.5.4
     eslint-plugin-prettier: ^5.0.1
-    lexical: ^0.12.2
     prettier: ^3.0.0
     typescript: ^5.2.2
   languageName: unknown
@@ -2182,13 +2181,6 @@ __metadata:
     prelude-ls: ^1.2.1
     type-check: ~0.4.0
   checksum: 12c5021c859bd0f5248561bf139121f0358285ec545ebf48bb3d346820d5c61a4309535c7f387ed7d84361cf821e124ce346c6b7cef8ee09a67c1473b46d0fc4
-  languageName: node
-  linkType: hard
-
-"lexical@npm:^0.12.2":
-  version: 0.12.2
-  resolution: "lexical@npm:0.12.2"
-  checksum: f02cd11aa015f1babb960d39a31ada30060c3af5446dcc4a6d26e300af8b889bc307633cf77604cf7538e776efdf6ca19d919b82ad24e29c451f58939e91621f
   languageName: node
   linkType: hard
 

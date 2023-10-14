@@ -34,7 +34,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.51.0"],\
             ["eslint-config-next", "virtual:b03491c911aeaebf2150b20216fe0075d533eb91c35ee078b945df904272b0bf4f12769e303a68643323f0df57be4f9ac84ea732ea27e05db961d4f3cd86aaeb#npm:13.5.4"],\
             ["eslint-plugin-prettier", "virtual:b03491c911aeaebf2150b20216fe0075d533eb91c35ee078b945df904272b0bf4f12769e303a68643323f0df57be4f9ac84ea732ea27e05db961d4f3cd86aaeb#npm:5.0.1"],\
-            ["lexical", "npm:0.12.2"],\
             ["prettier", "npm:3.0.3"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
@@ -661,7 +660,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.51.0"],\
             ["eslint-config-next", "virtual:b03491c911aeaebf2150b20216fe0075d533eb91c35ee078b945df904272b0bf4f12769e303a68643323f0df57be4f9ac84ea732ea27e05db961d4f3cd86aaeb#npm:13.5.4"],\
             ["eslint-plugin-prettier", "virtual:b03491c911aeaebf2150b20216fe0075d533eb91c35ee078b945df904272b0bf4f12769e303a68643323f0df57be4f9ac84ea732ea27e05db961d4f3cd86aaeb#npm:5.0.1"],\
-            ["lexical", "npm:0.12.2"],\
             ["prettier", "npm:3.0.3"],\
             ["typescript", "patch:typescript@npm%3A5.2.2#~builtin<compat/typescript>::version=5.2.2&hash=f3b441"]\
           ],\
@@ -2716,15 +2714,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["levn", "npm:0.4.1"],\
             ["prelude-ls", "npm:1.2.1"],\
             ["type-check", "npm:0.4.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["lexical", [\
-        ["npm:0.12.2", {\
-          "packageLocation": "./.yarn/cache/lexical-npm-0.12.2-f0ab681321-f02cd11aa0.zip/node_modules/lexical/",\
-          "packageDependencies": [\
-            ["lexical", "npm:0.12.2"]\
           ],\
           "linkType": "HARD"\
         }]\
